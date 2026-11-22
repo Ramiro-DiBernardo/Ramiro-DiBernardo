@@ -27,8 +27,53 @@ Knowing the operation from the inside, I want data to drive decisions: I build *
 - 📊 **End-to-end BI:** extraction (Jira REST API, SharePoint, Excel), Power Query, star-schema modeling, DAX and report design.
 - 📈 **Operational KPIs:** SLA, backlog, downtime, productivity, plan vs. actual and recurring failures.
 - 🗣️ **Quarterly performance reviews** presented to several business areas.
+- 🧮 **SQL and spreadsheets:** ETL with validation and reconciliation, window functions, and Google Sheets tools automated with Apps Script.
 - 🌱 **Currently learning:** statistics, machine learning and applied AI, plus more Python and SQL.
-- 🌎 Spanish (native) · English B2 (EF SET) · French (basic)
+- 🌎 Spanish (native) · English B2 (EF SET) · French (intermediate)
+
+## 🧪 End-to-end case studies
+
+> Built on synthetic data with planted problems (bad rows, incidents, outliers) that the analysis has to find. Every number in the write-ups is computed from the data and cross-checked.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🛢️ <a href="https://github.com/Ramiro-DiBernardo/upstream-production-reporting">Upstream production reporting</a> ⭐</h3>
+      <p>Oil &amp; gas operations: <b>SQL ETL with 8 data-quality checks</b> and sales reconciliation, then a Power BI model for production vs. type curve, uptime, deferred barrels and lifting cost (LOE per BOE), plus hourly SCADA data.</p>
+      <p>Window functions · recursive CTE · Arps decline · 51 DAX measures · row counts reconciled end to end.</p>
+      <img src="https://img.shields.io/badge/SQL-003B57?style=flat-square&logo=sqlite&logoColor=white" />
+      <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" />
+      <img src="https://img.shields.io/badge/DAX-1557b0?style=flat-square" />
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+    </td>
+    <td width="50%" valign="top">
+      <h3>📞 <a href="https://github.com/Ramiro-DiBernardo/wfm-realtime-queue-analytics">Real-time queue analytics (WFM)</a> ⭐</h3>
+      <p>A real-time analyst's toolkit for a 24/7 support operation: <b>Google Sheets live board</b> with status and recommended levers, Apps Script alerts and replay, SQL incident detection and a forensic agent-state audit.</p>
+      <p>Erlang C · gaps-and-islands SQL · incident update and business review written for leadership.</p>
+      <img src="https://img.shields.io/badge/Google%20Sheets-34A853?style=flat-square&logo=googlesheets&logoColor=white" />
+      <img src="https://img.shields.io/badge/Apps%20Script-4285F4?style=flat-square&logo=google&logoColor=white" />
+      <img src="https://img.shields.io/badge/SQL-003B57?style=flat-square&logo=sqlite&logoColor=white" />
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📊 <a href="https://github.com/Ramiro-DiBernardo/powerbi-dax-showcase">Power BI DAX showcase</a></h3>
+      <p>Sales executive report on a clean star schema: time intelligence, ranking and share, targets through <b>virtual relationships (<code>TREATAS</code>)</b>, and KPI cards rendered from <b>DAX-generated HTML</b>.</p>
+      <p>25 documented measures · validated against an independent Python calculation · PBIP / TMDL.</p>
+      <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" />
+      <img src="https://img.shields.io/badge/DAX-1557b0?style=flat-square" />
+      <img src="https://img.shields.io/badge/Power%20Query-217346?style=flat-square" />
+    </td>
+    <td width="50%" valign="top">
+      <h3>🤖 <a href="https://github.com/Ramiro-DiBernardo/conversational-ai-qa-sample">Conversational AI QA</a></h3>
+      <p>Quality assurance for a collections chatbot / voicebot in a regulated industry: an 18-case manual test suite with a transcript scorecard, and a <b>Python checker</b> that reviews transcripts against compliance rules and audits a vendor's pass/fail scores.</p>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+      <img src="https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white" />
+      <img src="https://img.shields.io/badge/QA-555?style=flat-square" />
+    </td>
+  </tr>
+</table>
 
 ## 🚀 Featured projects
 
@@ -124,6 +169,8 @@ Knowing the operation from the inside, I want data to drive decisions: I build *
   <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
   <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" />
+  <img src="https://img.shields.io/badge/Google%20Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white" />
+  <img src="https://img.shields.io/badge/Apps%20Script-4285F4?style=for-the-badge&logo=google&logoColor=white" />
   <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white" />
 </p>
 
