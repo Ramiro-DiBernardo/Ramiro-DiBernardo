@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/ramiro-di-bernardo-142077303/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/ramiro-di-bernardo/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:ramirodiber@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://cert.efset.org/es/M8Ltox"><img src="https://img.shields.io/badge/English-EF%20SET%20B2-1557b0?style=for-the-badge" alt="EF SET B2" /></a>
   <img src="https://komarev.com/ghpvc/?username=Ramiro-DiBernardo&style=for-the-badge&color=1557b0&label=PROFILE%20VIEWS" alt="Profile views" />
